@@ -1,8 +1,8 @@
 {
-  "name": "form-data",
-  "version": "1.0.0",
+  "name": "parse-form-data",
+  "version": "0.1.0",
   "description": "Parse a multipart form data on your server.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "rm -rf dist && tsc && node lib/index.js",
     "deploy": "npm i && rm -rf lib && tsc -d && npm publish"
