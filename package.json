@@ -1,6 +1,6 @@
 {
   "name": "parse-multipart-form-data",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Parse a multipart form data on your server.",
   "main": "lib/index.js",
   "scripts": {

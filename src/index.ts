@@ -1,10 +1,10 @@
-export const getBoundary = (contentType: string): string | undefined => {
+export const extractBoundary = (contentType: string): string => {
   const keyword = "boundary=";
 
   const index = contentType.indexOf(keyword);
 
   if (index === -1) {
-    return;
+    return "";
   }
 
   return `--${contentType.substring(index + keyword.length)}`;
