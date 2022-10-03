@@ -1,6 +1,6 @@
 {
-  "name": "parse-form-data",
-  "version": "0.1.0",
+  "name": "parse-multipart-form-data",
+  "version": "0.1.1",
   "description": "Parse a multipart form data on your server.",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/no-talk/lambda.git"
+    "url": "git+https://github.com/oh-jinsu/parse-multipart-form-data.git"
   },
   "author": {
     "name": "ohjinsu",
@@ -18,9 +18,9 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/no-talk/lambda/issues"
+    "url": "https://github.com/oh-jinsu/parse-multipart-form-data/issues"
   },
-  "homepage": "https://github.com/no-talk/lambda#readme",
+  "homepage": "https://github.com/oh-jinsu/parse-multipart-form-data#readme",
   "devDependencies": {
     "@types/node": "^18.8.0",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
