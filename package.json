@@ -1,0 +1,34 @@
+{
+  "name": "form-data",
+  "version": "1.0.0",
+  "description": "Parse a multipart form data on your server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && tsc && node lib/index.js",
+    "deploy": "npm i && rm -rf lib && tsc -d && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-talk/lambda.git"
+  },
+  "author": {
+    "name": "ohjinsu",
+    "email": "ohjinsu@codersproduct.com",
+    "url": "https://ohjinsu.me"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/no-talk/lambda/issues"
+  },
+  "homepage": "https://github.com/no-talk/lambda#readme",
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
